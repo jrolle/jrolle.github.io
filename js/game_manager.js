@@ -187,7 +187,7 @@ GameManager.prototype.move = function (direction) {
     this.addRandomTile();
 
     if (!this.movesAvailable()) {
-      this.over = true; // Game over!
+      this.over = true; // 结束了!
     }
 
     this.actuate();
